@@ -1,0 +1,11 @@
+# Backend only for now. Postgres/Redis lines are commented until Phase 7 uses them.
+services:
+  api:
+    build: ../backend
+    env_file: ../.env
+    ports: ["8000:8000"]
+  # db:
+  #   image: postgres:16
+  #   environment: { POSTGRES_PASSWORD: change-me }
+  # redis:
+  #   image: redis:7

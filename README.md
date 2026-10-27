@@ -23,3 +23,4 @@ Safe test URLs: `https://github.com`, `https://x.phishlens-test.invalid` (mock-p
 3. Scan `https://xn--pypal-4ve.com` → PHISHING via mixed-script homograph.
 4. Scan `http://192.168.1.1` → shows the scanner refuses internal targets.
 5. Show a report with `explanation.source = "rules"` vs with an API key.
+# cyberlens
